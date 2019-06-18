@@ -1,0 +1,140 @@
+.row {
+  display: flex;
+  flex-direction: column; }
+  .row div {
+    margin-bottom: 5px; }
+  .row > * {
+    flex-grow: 0;
+    flex-shrink: 0; }
+
+.col-sm-1 {
+  width: 7.33333%; }
+
+.col-sm-2 {
+  width: 15.66667%; }
+
+.col-sm-3 {
+  width: 24%; }
+
+.col-sm-4 {
+  width: 32.33333%; }
+
+.col-sm-5 {
+  width: 40.66667%; }
+
+.col-sm-6 {
+  width: 49%; }
+
+.col-sm-7 {
+  width: 57.33333%; }
+
+.col-sm-8 {
+  width: 65.66667%; }
+
+.col-sm-9 {
+  width: 74%; }
+
+.col-sm-10 {
+  width: 82.33333%; }
+
+.col-sm-11 {
+  width: 90.66667%; }
+
+.col-sm-12 {
+  width: 99%; }
+
+.logo {
+  margin-left: 100px; }
+
+form {
+  margin-left: 150px; }
+
+#slider {
+  display: none; }
+
+.display-none {
+  display: none; }
+
+.overture-info p {
+  width: 450px; }
+
+@media screen and (min-width: 640px) {
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -1rem; }
+  [class*="col"] {
+    margin-left: 1rem; }
+  .col-md-1 {
+    width: 7.33333%; }
+  .col-md-2 {
+    width: 15.66667%; }
+  .col-md-3 {
+    width: 24%; }
+  .col-md-4 {
+    width: 32.33333%; }
+  .col-md-5 {
+    width: 40.66667%; }
+  .col-md-6 {
+    width: 49%; }
+  .col-md-7 {
+    width: 57.33333%; }
+  .col-md-8 {
+    width: 65.66667%; }
+  .col-md-9 {
+    width: 74%; }
+  .col-md-10 {
+    width: 82.33333%; }
+  .col-md-11 {
+    width: 90.66667%; }
+  .col-md-12 {
+    width: 99%; }
+  .logo {
+    padding-left: 15px; }
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 1000px;
+    margin: 0 auto; }
+    main section {
+      flex: 1; }
+  .overture-info {
+    max-width: 250px; }
+    .overture-infop {
+      width: 250px; }
+  .display-none {
+    display: block; } }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto; }
+  .col-xl-1 {
+    width: 7.33333%; }
+  .col-xl-2 {
+    width: 15.66667%; }
+  .col-xl-3 {
+    width: 24%; }
+  .col-xl-4 {
+    width: 32.33333%; }
+  .col-xl-5 {
+    width: 40.66667%; }
+  .col-xl-6 {
+    width: 49%; }
+  .col-xl-7 {
+    width: 57.33333%; }
+  .col-xl-8 {
+    width: 65.66667%; }
+  .col-xl-9 {
+    width: 74%; }
+  .col-xl-10 {
+    width: 82.33333%; }
+  .col-xl-11 {
+    width: 90.66667%; }
+  .col-xl-12 {
+    width: 99%; }
+  form {
+    padding-left: 50px; }
+  #slider {
+    display: block; } }

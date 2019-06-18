@@ -1,0 +1,17 @@
+// Small tablets (portrait view)
+$screen-md-min: 640px;
+
+// Large tablets and desktops
+$screen-lg-min: 1024px;
+
+
+$columns: 12;
+$gutter-width: 1%;
+$container-width: 100%;
+$column-width: ($container-width / $columns * 1 - $gutter-width);
+
+$container-flex: flex;
+$direction-r:row;
+$value:250px;
+$display-n:none;
+$display-b:block;

@@ -1,0 +1,254 @@
+            .row {
+                display: flex;
+                flex-direction:column;    
+            }
+            .row div {
+                margin-bottom:5px;
+            }
+            .row > * {
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis : calc(100% / 12 * 1  - 1rem);
+            } 
+            .col-sm-1{
+                flex : 1 1 calc(100% / 12 * 1  - 1rem);
+            }
+            .col-sm-2{
+                flex : 1 1 calc(100% / 12 * 2  - 1rem);
+            }
+            .col-sm-3{
+                flex : 1 1 calc(100% / 12 * 3  - 1rem);
+            }
+            .col-sm-4{
+                flex : 1 1 calc(100% / 12 * 4  - 1rem);
+            }
+            .col-sm-5{
+                flex : 1 1 calc(100% / 12 * 5  - 1rem);
+            }
+            .col-sm-6{
+                flex : 1 1 calc(100% / 12 * 6  - 1rem);
+            }
+            .col-sm-7{
+                flex : 1 1 calc(100% / 12 * 7  - 1rem);
+            }
+            .col-sm-8{
+                flex : 1 1 calc(100% / 12 * 8  - 1rem);
+            }
+            .col-sm-9{
+                flex : 1 1 calc(100% / 12 * 9  - 1rem);
+            }
+            .col-sm-10{
+                flex : 1 1 calc(100% / 12 * 10  - 1rem);
+            }
+            .col-sm-11{
+                flex : 1 1 calc(100% / 12 * 11  - 1rem);
+            }
+            .col-sm-12{
+                flex : 1 1 calc(100% / 12 * 12  - 1rem);
+            }
+              
+            .logo{
+                margin-left:100px;
+            }
+            .champs-recherche form{
+                margin-left:150px;    
+            }
+            #slider{
+                display:none;
+            }
+            #overture-info p{
+                width: 450px;
+            }
+            .display-none{
+                display: none;
+            }
+            #info-contact, #form-contact{
+                margin-top:10px; 
+            }
+            #inscription label:not(#newsletter){   
+                    float:left;
+                    text-align: right;
+                    width:15%;
+                    padding: 0 .5em 0 0; 
+            }
+            .bouton-soumission{
+                padding-left:200px;       
+            }
+            .newsletter{
+                    padding-left:105px;
+            }
+            @media screen and (min-width: 640px) { 
+                .row{
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-left: -1rem;
+                }
+                [class*="col"] {
+                    margin-left: 1rem;
+                }
+                .col-md-1{
+                    flex : 1 1 calc(100% / 12 * 1  - 1rem);
+                }
+                .col-md-2{
+                    flex : 1 1 calc(100% / 12 * 2  - 1rem);
+                }
+                .col-md-3{
+                    flex : 1 1 calc(100% / 12 * 3  - 1rem);
+                }
+                .col-md-4{
+                    flex : 1 1 calc(100% / 12 * 4  - 1rem);
+                }
+                .col-md-5{
+                    flex : 1 1 calc(100% / 12 * 5  - 1rem);
+                }
+                .col-md-6{
+                    flex : 1 1 calc(100% / 12 * 6  - 1rem);
+                }
+                .col-md-7{
+                    flex : 1 1 calc(100% / 12 * 7  - 1rem);
+                }
+                .col-md-8{
+                    flex : 1 1 calc(100% / 12 * 8  - 1rem);
+                }
+                .col-md-9{
+                    flex : 1 1 calc(100% / 12 * 9  - 1rem);
+                }
+                .col-md-10{
+                    flex : 1 1 calc(100% / 12 * 10  - 1rem);
+                }
+                .col-md-11{
+                    flex : 1 1 calc(100% / 12 * 11  - 1rem);
+                }
+                .col-md-12{
+                    flex : 1 1 calc(100% / 12 * 12  - 1rem);
+                }
+               .logo {
+                    padding-left:15px;
+                }
+                main{
+                    display: flex;
+                    flex-direction: row;
+                    flex: 1;
+                    max-width:1000px;
+                    margin: 0 auto;
+                }
+                section{
+                    flex: 1;
+                }
+                #overture-info{
+                    max-width:250px;
+                }
+                #overture-info p{
+                    width:250px;
+                }
+                #articles{
+                     padding-left:40px;      
+                }
+                .images-article div{
+                    width:400px;
+                }
+                .display-none{
+                    display: block;
+                }
+                .img{
+                    display: none;
+                }
+                #map{
+                    display:none;
+                }
+                #info-contact{
+                    width:260px;      
+                }
+                #form-contact{
+                    width:700px;
+                    margin-left:20px; 
+                }
+                #inscription label:not(#newsletter){   
+                    width:25%;
+                }
+                 .newsletter{
+                    padding-left:90px;
+                }
+                  
+            } 
+            @media screen and (min-width: 1024px) {
+
+               .container{
+                   max-width:980px;
+                   margin: 0 auto;
+                }
+                .col-lg-1{
+                   flex : 1 1 calc(100% / 12 * 1  - 1rem);
+                }
+                .col-lg-2{
+                    flex : 1 1 calc(100% / 12 * 2  - 1rem);
+                }
+                .col-lg-3{
+                    flex : 1 1 calc(100% / 12 * 3  - 1rem);
+                }
+                .col-lg-4{
+                    flex : 1 1 calc(100% / 12 * 4  - 1rem);
+                }
+                .col-lg-5{
+                    flex : 1 1 calc(100% / 12 * 5  - 1rem);
+                }
+                .col-lg-6{
+                    flex : 1 1 calc(100% / 12 * 6  - 1rem);
+                }
+                .col-lg-7{
+                    flex : 1 1 calc(100% / 12 * 7  - 1rem);
+                }
+                .col-lg-8{
+                    flex : 1 1 calc(100% / 12 * 8  - 1rem);
+                }
+                .col-lg-9{
+                    flex : 1 1 calc(100% / 12 * 9  - 1rem);
+                }
+                .col-lg-10{
+                    flex : 1 1 calc(100% / 12 * 10  - 1rem);
+                }
+                .col-lg-11{
+                    flex : 1 1 calc(100% / 12 * 11  - 1rem);
+                }
+                .col-lg-12{
+                    flex : 1 1 calc(100% / 12 * 12  - 1rem);
+                }
+                .champs-recherche form{
+                   padding-left:50px;
+                }
+                #slider{
+                    display: block;
+                } 
+                .description-article{
+                   max-width:240px;
+                }
+                .detail-article{
+                    width:550px;
+                    padding-left:30px;
+                }
+                .img{
+                    display:block;
+                }
+                #map{
+                    display:block;
+                }
+                #info-contact{
+                    margin-left:10px;        
+                }
+                #inscription {   
+                    padding-left:50px;  
+                }
+                #inscription label:not(#newsletter){   
+                     float: left;
+                     text-align: right;
+                     width: 35%;
+                     padding: 0 .5em 0 0; 
+                }
+                #submit{
+                      float:right;       
+                }
+                .newsletter{
+                    padding-left:105px;
+                }
+                        
+            }

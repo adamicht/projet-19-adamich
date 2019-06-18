@@ -1,0 +1,104 @@
+@import "partials/variables.scss";
+@import "partials/function.scss";
+
+.row{
+    display:$container-flex;
+    flex-direction: column;
+    
+    div{
+      margin-bottom: 5px;
+    }
+    
+    >*{
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+}
+// Small devices
+
+@for $i from 1 through $columns {
+    .col-sm-#{$i}{
+      width :grid($i, $column-width, $gutter-width);
+    }
+}
+.logo{
+      margin-left:100px;
+}
+form{
+      margin-left:150px;    
+}
+#slider{
+      display:$display-n;
+}
+.display-none{
+    display:$display-n;
+}
+
+.overture-info{
+    p{
+      width: 450px;
+    }
+} 
+
+    
+// Medium devices
+
+@media screen and(min-width: #{$screen-md-min}) {
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+}
+[class*="col"] {
+    margin-left: 1rem;
+}
+@for $i from 1 through $columns {
+  .col-md-#{$i}{
+    width :grid($i, $column-width, $gutter-width);
+  }
+}
+.logo {
+      padding-left:15px;
+}
+main{
+    display:$container-flex;
+    flex-direction:$direction-r;
+    flex: 1;
+    max-width:1000px;
+    margin: 0 auto;
+      section{
+            flex: 1;
+      }            
+}
+.overture-info{
+      max-width:$value;
+        &p{
+          width:$value;
+        }    
+}
+.display-none{
+      display:$display-b;
+}    
+}
+
+//Large devices
+
+@media screen and (min-width: #{$screen-lg-min}) {
+.container{
+      max-width: 960px;
+      margin: 0 auto;
+}
+@for $i from 1 through $columns {
+      .col-xl-#{$i}{
+        width :grid($i, $column-width, $gutter-width);
+      }
+}
+form{
+    padding-left:50px;
+}
+#slider{
+    display:$display-b;
+  }
+} 
+
